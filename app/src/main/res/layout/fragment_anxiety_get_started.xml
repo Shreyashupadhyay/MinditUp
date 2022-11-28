@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnxietyGetStarted"
+    android:background="#a1b2c3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/anxietygs"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/view_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/lato"
+                android:text="We've got you covered."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentEnd="true"
+                android:text="It can be difficult and exhausting to live with anxiety. However, we are here to assist you."
+                android:textColor="#2d2f30"
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentEnd="true"
+                android:text="Let's begin by evaluating your current situation."
+                android:textColor="#2d2f30"
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/startAnxAssessment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+
+                android:text="Start Assessment"
+                android:layout_marginLeft="75dp"
+                android:background="@drawable/gsbtn"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginBottom="35sp"
+                android:layout_alignParentBottom="true"
+                android:text="Meet Therapist"
+                android:textColor="#1f78b0"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

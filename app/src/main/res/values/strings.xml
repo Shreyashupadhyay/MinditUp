@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MindFit</string>
+
+    <string name="pick">Pick a mental health goal</string>
+    <string name="Tell">Tell us how we can help you,</string>
+
+    <string name="Depression">Overcoming Depression</string>
+    <string name="Anxiety">Beating Anxiety</string>
+    <string name="Stress">Tackling Stress</string>
+    <string name="Sleep">Sleeping Better</string>
+    <string name="Anger">Managing Anger</string>
+    <string name="Relationships">Managing Relationships</string>
+
+
+    <string name="ques_ans">questions answered</string>
+    <string name="ques">Questions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

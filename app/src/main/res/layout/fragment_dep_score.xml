@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DepScoreFragment"
+    android:background="#c9e3ed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c9e3ed">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/lato_black"
+                android:text="Here Is Your Result:"
+                android:textColor="#0E0D0D"
+                android:textSize="34sp" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/activity_main_piechart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </com.github.mikephil.charting.charts.PieChart>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:id="@+id/scoretext" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentEnd="true"
+                android:text="The graph displays different symptoms of depression. We have highlighted the ones that were found to affect you the most."
+                android:textColor="#2d2f30"
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/depscore">
+
+                <Button
+                    android:id="@+id/depplan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/gsbtn"
+                    android:text="Create Planner"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="150dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Go to Home Page"
+                    android:textColor="#1f78b0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

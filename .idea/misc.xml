@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/angryrc.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/anxietyrc.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/deprc.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/gsbtn.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/happyliferc.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/ic_bot.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/ic_bott.xml" value="0.23697916666666666" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/ic_goal.xml" value="0.23697916666666666" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/ic_goall.xml" value="0.23697916666666666" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/roundedcategory.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/sleeprc.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/stressrc.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/testbtn.xml" value="0.2526041666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/view_bg.xml" value="0.24351851851851852" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/font/.xml" value="0.26666666666666666" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_angry.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_anxiety.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_categories.xml" value="0.264" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_depressed.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_relation.xml" value="0.22239583333333332" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_sleep.xml" value="0.22239583333333332" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_splash.xml" value="0.24010416666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_stress.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_activity.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_angry_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_anxiety_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_dep_score.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_depression_get_started.xml" value="0.1" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_drepession_test.xml" value="0.264" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_happy_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_relation_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_sleep_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_stress_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_stress_score.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_stress_test.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/list_design.xml" value="0.23645833333333333" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable-v24/home_moodtracker_activity_innerbox.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/gsbtn.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/gsbtnmt.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/happyliferc.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/home_activity_box_design.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/ic_bot.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/ic_bott.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/stressrc.xml" value="0.1935" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/testbtn.xml" value="0.1" />
+        <entry key="..\:/backup/MindItUp/app/src/main/res/drawable/view_bg.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

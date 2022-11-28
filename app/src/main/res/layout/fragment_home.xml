@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="Mood Tracker"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home_moodtracker_activity_innerbox"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:id="@+id/mt1"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignTop="@+id/mt2"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="-1dp"
+                            android:src="@drawable/emojis4" />
+
+                        <ImageView
+                            android:id="@+id/mt2"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignTop="@+id/mt3"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="114dp"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/emojis7" />
+
+                        <ImageView
+                            android:id="@+id/mt3"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignTop="@+id/mt4"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="110dp"
+                            android:src="@drawable/emojis1" />
+
+                        <ImageView
+                            android:id="@+id/mt4"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/emojis6" />
+
+                        <ImageView
+                            android:id="@+id/mt5"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignStart="@+id/mt1"
+                            android:layout_alignTop="@+id/mt6"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="1dp"
+                            android:src="@drawable/emojis2" />
+
+                        <ImageView
+                            android:id="@+id/mt6"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignStart="@+id/mt2"
+                            android:layout_alignTop="@+id/mt7"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="209dp"
+                            android:src="@drawable/emojis8" />
+
+                        <ImageView
+                            android:id="@+id/mt7"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignStart="@+id/mt3"
+                            android:layout_alignTop="@+id/mt8"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="111dp"
+                            android:src="@drawable/emojis3" />
+
+                        <ImageView
+                            android:id="@+id/mt8"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignStart="@+id/mt4"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="-4dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginBottom="11dp"
+                            android:src="@drawable/emojis5" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_below="@+id/linear"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="My Schedule"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/home_activity_box_design"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hai to hai.........," />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/home_activity_box_design"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hai to hai.........," />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/home_activity_box_design"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hai to hai.........," />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/home_activity_box_design"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hai to hai.........," />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/home_activity_box_design"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hai to hai.........," />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/linear2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="Talk To An Expert"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/linear3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="Recommended Activities"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/memeactivity"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:text="Quotes and Memes"/>
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/gameactivity"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:text="Games"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/breathactivity"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:text="Deep Breath"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/musicactivity"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:text="Music"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/Meditationactivity"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:text="Meditation"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/Yogaactivity"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:text="Yoga"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
